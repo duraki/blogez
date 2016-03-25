@@ -1,0 +1,131 @@
+  body {
+    background-color: #FFF;
+    font: small Helvetica, Arial, clean, sans-serif;
+    text-align: center;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .site {
+    font-size: 110%;
+    text-align: justify;
+    width: 50em;
+    margin: 3em auto 2em;
+    line-height: 1.3em;
+  }
+
+  .title {
+    display: inline-block;
+    margin-bottom: 2em;
+  }
+
+  .title a {
+    color: #A00;
+  }
+
+  .header a.extra {
+    color: #AAA;
+    margin-left: 1em;
+  }
+
+  .header a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0px;
+    font-size: 100%;
+  }
+
+  .wrapper {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .posts {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+  .posts li {
+    line-height: 1.75em;
+  }
+
+  .posts span {
+    color: #AAA;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+  .posts span:hover {
+    color: white;
+    background-color: black;
+  }
+
+  a {
+    color: #A0A;
+  }
+
+  .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #EEE;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+  .footer .contact {
+    float: left;
+    margin-right: 3em;
+  }
+
+  p {
+    margin: 0.5em 0px;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    font-size: 100% !important;
+  }
+
+  .date {
+    color: rgb(176, 167, 167);
+    font-size: 10px;
+  }
+
+  code, pre {
+    font-size: 11px !important;
+  }
+
+  .post-content h2 {
+    padding: 0.4em 30px 0.4em 0px;
+    margin: 0px 0px 1em;
+    border-bottom: 1px solid #E3F5F7;
+    color: #11333E;
+    background: transparent url("right1s.png") no-repeat scroll right center;
+    font-size: 100%;
+  }
+
+  img {
+    display: block;
+    width: auto;
+    margin: auto;
+  }
+
+  iframe {
+    width: 800px;
+    height: 640px;
+    display: block;
+    margin: auto;
+  }
