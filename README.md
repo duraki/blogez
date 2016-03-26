@@ -26,7 +26,7 @@ Awesome. Fill your mypost.md with actual data post in markdown and lets compile 
 
 As you can see, the **first** argument is blog project you've created eariler.  
 The **second** arugment is a post file which is in this case *mypost.md*.  
-The **thirdh** argument is the title of the post, set it acording to your post.  
+The **third** argument is the title of the post, set it acording to your post.  
   
 Now add the output information from compiled process into *index.html*.  
   
