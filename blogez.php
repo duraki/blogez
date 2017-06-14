@@ -22,6 +22,12 @@ require_once(__DIR__ . '/assets/funcs.php');
 
 $blogez = new funcs_blogez();
 
+// No arguments given.
+if (count($argv) <= 1) {
+    $blogez->print_head();
+    exit;
+}
+
 switch ($argv[1]) {
     case 'create':
         $blogez->create_blog($argv[2]);
